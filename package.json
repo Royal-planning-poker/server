@@ -1,0 +1,17 @@
+{
+  "name": "royal-planning-poker-serverg-poker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Gitarcitano/royal-planning-poker-server.git",
+  "author": "Giovanne Faccio Tarcitano <44866256+Gitarcitano@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
