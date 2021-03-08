@@ -5,13 +5,29 @@
   "repository": "https://github.com/Gitarcitano/royal-planning-poker-server.git",
   "author": "Giovanne Faccio Tarcitano <44866256+Gitarcitano@users.noreply.github.com>",
   "license": "MIT",
-  "dependencies": {},
+  "scripts": {
+    "dev:server": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.10.3",
+    "apollo-server": "^2.21.0",
+    "class-validator": "^0.13.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "mongoose": "^5.11.19",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
   "devDependencies": {
+    "@types/node": "^14.14.32",
+    "@types/react": "^17.0.3",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "eslint": "^7.20.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-import-resolver-typescript": "^2.4.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
   }
 }
