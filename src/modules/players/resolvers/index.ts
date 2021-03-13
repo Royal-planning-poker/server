@@ -1,10 +1,11 @@
 import { Player } from '../models';
+import { createPlayerService } from '../services/createPlayerService';
 
 type FindPlayer = {
   id: string;
 };
 
-type CreatePlayer = {
+export type CreatePlayerType = {
   name: string;
 };
 
@@ -15,7 +16,6 @@ export const resolvers = {
   },
 
   Mutation: {
-    createPlayer: (_: unknown, { name }: CreatePlayer): Promise<typeof Player> =>
-      Player.create({ name, isSpectator: false }),
+    createPlayer: (_: unknown, { name }: CreatePlayerType): Promise<typeof Player> => createPlayerService({ name }),
   },
 };
